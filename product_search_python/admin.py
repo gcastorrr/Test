@@ -21,9 +21,6 @@ from admin_handlers import *
 
 import webapp2
 
-
-# intentionally inserted lines to test git
-
 application = webapp2.WSGIApplication(
     [
         ('/admin/manage', AdminHandler),
